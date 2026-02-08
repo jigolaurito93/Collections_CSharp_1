@@ -1,0 +1,9 @@
+C:/Users/j.laurito/Documents/Dev Tools/Repos/C#/Collections_CSharp_1/Collections_CSharp_1/bin/Debug/Collections_CSharp_1.exe.config
+C:/Users/j.laurito/Documents/Dev Tools/Repos/C#/Collections_CSharp_1/Collections_CSharp_1/bin/Debug/Collections_CSharp_1.exe
+C:/Users/j.laurito/Documents/Dev Tools/Repos/C#/Collections_CSharp_1/Collections_CSharp_1/bin/Debug/Collections_CSharp_1.pdb
+C:/Users/j.laurito/Documents/Dev Tools/Repos/C#/Collections_CSharp_1/Collections_CSharp_1/obj/Debug/Collections_CSharp_1.csproj.AssemblyReference.cache
+C:/Users/j.laurito/Documents/Dev Tools/Repos/C#/Collections_CSharp_1/Collections_CSharp_1/obj/Debug/Collections_CSharp_1.csproj.CoreCompileInputs.cache
+C:/Users/j.laurito/Documents/Dev Tools/Repos/C#/Collections_CSharp_1/Collections_CSharp_1/obj/Debug/Collections_CSharp_1.exe
+C:/Users/j.laurito/Documents/Dev Tools/Repos/C#/Collections_CSharp_1/Collections_CSharp_1/obj/Debug/Collections_CSharp_1.pdb
+/Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/Collections_CSharp_1/obj/Debug/Collections_CSharp_1.exe
+/Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/Collections_CSharp_1/obj/Debug/Collections_CSharp_1.pdb
