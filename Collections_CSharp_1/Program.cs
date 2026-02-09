@@ -24,6 +24,18 @@ namespace Collections_CSharp_1
             colors.Add("Green");
             colors.Add("Black");
 
+            // Another way to initialize a list with values
+            /*
+            List<string> colors =
+            [
+                // Method for Lists that adds a value
+                "Black",
+                "Yellow",
+                "Green",
+                "Black",
+            ];
+            */
+
             static void PrintColors(List<string> colors)
             {
                 Console.WriteLine("These are the colors in the list:");
