@@ -23,6 +23,7 @@ namespace Collections_CSharp_1
             colors.Add("Yellow");
             colors.Add("Green");
             colors.Add("Blue");
+            colors.Add("Brown");
 
             foreach (string color in colors)
             {
