@@ -8,6 +8,7 @@
 /Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/obj/Debug/net8.0/Collections_CSharp_1.AssemblyInfoInputs.cache
 /Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/obj/Debug/net8.0/Collections_CSharp_1.AssemblyInfo.cs
 /Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/obj/Debug/net8.0/Collections_CSharp_1.csproj.CoreCompileInputs.cache
+/Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/obj/Debug/net8.0/Collections_CSharp_1.sourcelink.json
 /Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/obj/Debug/net8.0/Collections_CSharp_1.dll
 /Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/obj/Debug/net8.0/refint/Collections_CSharp_1.dll
 /Users/joseinigoalaurito/Programming/CSharp/Collections_CSharp_1/obj/Debug/net8.0/Collections_CSharp_1.pdb
