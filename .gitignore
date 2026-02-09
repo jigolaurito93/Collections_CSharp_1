@@ -1,0 +1,25 @@
+## Ignore typical .NET build and IDE files
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+.vs/
+.vscode/
+*.log
+*.cache
+
+# Build outputs
+*.dll
+*.pdb
+*.exe
+*.dll.config
+*.deps.json
+*.runtimeconfig.json
+
+# NuGet
+*.nupkg
+packages/
+
+# Rider/IDE
+.idea/
