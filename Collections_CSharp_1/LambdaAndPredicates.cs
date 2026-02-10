@@ -21,6 +21,7 @@ namespace Collections_CSharp_1
             // using predicate to find all even numbers in a list
             List<int> numbers = [3, 39, 21, 83, 60, 12, 4, 7];
 
+            // A Predicate is a delegate that represents a method that takes a single parameter and returns a boolean value.
             // using Predicate to create a checker for numbers greater than 10. 
             // Returns true if the number is greater than 10, false otherwise.
             Predicate<int> isGreaterThan10 = x => x > 10;

@@ -14,7 +14,8 @@ namespace Collections_CSharp_1
             //AddingRemoving.useAddingRemoving();
             //Sorting.useSorting();
             //FindingAll.usingFindAll();
-            LambdaAndPredicates.useLambdaAndPredicates();
+            //LambdaAndPredicates.useLambdaAndPredicates();
+            AnyMethod.usingAnyMethod();
         } 
     }
 }
