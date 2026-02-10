@@ -13,7 +13,8 @@ namespace Collections_CSharp_1
            
             //AddingRemoving.useAddingRemoving();
             //Sorting.useSorting();
-            FindingAll.usingFindAll();
+            //FindingAll.usingFindAll();
+            LambdaAndPredicates.useLambdaAndPredicates();
         } 
     }
 }
