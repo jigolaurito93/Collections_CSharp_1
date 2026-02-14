@@ -7,8 +7,19 @@ namespace Collections_CSharp_1
     {
         public static void UsingDictionaries()
         {   
+            // Dictionaries are a collection of key value pairs.
+            // They are unordered and cannot contain duplicate keys.
             // Creating a Dictionary without a predefined key value pairs
             Dictionary<int,string> employees = new Dictionary<int, string>();
+
+            // creating a dictionary with a predefined key value pairs
+            Dictionary<int,string> customers = new Dictionary<int, string>
+            {
+                {001, "James Andrew"},
+                {002, "Brandon Smith"},
+                {003, "Alyssa Peterson"},
+                {004, "Jessica Thompson"},
+            };
 
             // Use Add method to add key value pairs
             employees.Add(001, "Marvin Pock");
