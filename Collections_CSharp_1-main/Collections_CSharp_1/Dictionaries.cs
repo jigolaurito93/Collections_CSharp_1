@@ -73,7 +73,18 @@ namespace Collections_CSharp_1
 
             // Get the number of key value pairs in the dictionary using the Count property
             Console.WriteLine("Number of employees in the dictionary: " + employees.Count);
-            
+
+            // TryAdd method to add a key value pair to the dictionary and check if it was added successfully
+            // Returns a boolean value, returns true if the key value pair was added successfully, returns false if the key already exists in the dictionary
+            bool isAdded = employees.TryAdd(004, "Carter Wildenradt");
+            if (isAdded)
+            {
+                Console.WriteLine("Employee 004 was added to the dictionary.");
+            }
+            else
+            {
+                Console.WriteLine("Employee 004 already exists in the dictionary.");
+            }
         }
     }
 }
