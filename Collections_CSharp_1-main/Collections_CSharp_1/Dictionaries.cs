@@ -11,13 +11,57 @@ namespace Collections_CSharp_1
             Dictionary<int,string> employees = new Dictionary<int, string>();
 
             // Use Add method to add key value pairs
-            employees.Add(321, "Marvin");
-            employees.Add(322, "Kenan");
+            employees.Add(001, "Marvin Pock");
+            employees.Add(002, "Kenan Froal");
+            employees.Add(003, "John Doe");
+            employees.Add(004, "Jane Doe");
+            employees.Add(005, "Jim Doe");
             
             // Access the values by indexing the dictionary
-            Console.WriteLine(employees[321]);
-            Console.WriteLine(employees[322]);
-            Console.WriteLine(employees[322]);
+            Console.WriteLine("Employee 001: " + employees[001]);
+            Console.WriteLine("Employee 002: " + employees[002]);
+
+            // Change the value of employee 001 from Marvin to James
+            employees[001] = "James Tundt";
+            Console.WriteLine("After changing the value of employee 001:");
+            Console.WriteLine("Employee 001: " + employees[001]);
+
+            // Remove an employee from the dictionary using the Remove method with the key
+            employees.Remove(002);
+            Console.WriteLine("After removing employee 002:");
+            Console.WriteLine("Employee 001: " + employees[001]);
+            // Cannot access the removed employee, it will throw an error.
+            //Console.WriteLine("Employee 002: " + employees[002]);
+
+            // Using foreach to iterate through the dictionary
+            // Note: Employee 002 was removed, so it will not be included in the output.
+            foreach (KeyValuePair<int, string> employee in employees)
+            {
+                Console.WriteLine("Employee ID: " + employee.Key + " - Name: " + employee.Value);
+            }
+
+            // Check if a key exists in the dictionary using the ContainsKey method
+            if (employees.ContainsKey(003))
+            {
+                Console.WriteLine("Employee 003 exists in the dictionary.");
+            }
+            else
+            {
+                Console.WriteLine("Employee 003 does not exist in the dictionary.");
+            }
+
+            // Check if a value exists in the dictionary using the ContainsValue method
+            if (employees.ContainsValue("Jane Doe"))
+            {
+                Console.WriteLine("Employee 004 exists in the dictionary.");
+            }
+            else    
+            {
+                Console.WriteLine("Employee 004 does not exist in the dictionary.");
+            }
+
+            // Get the number of key value pairs in the dictionary using the Count property
+            Console.WriteLine("Number of employees in the dictionary: " + employees.Count);
             
         }
     }
