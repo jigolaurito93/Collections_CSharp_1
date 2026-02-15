@@ -19,7 +19,8 @@ namespace Collections_CSharp_1
             //ComplexObjInList.UsingComplexObjInList();
             //ListWhere.UsingListWhere();
             //Nullables.UsingNullables();
-            Dictionaries.UsingDictionaries();
+            //Dictionaries.UsingDictionaries();
+            DictionariesWithObj.UsingDictionariesWithObj();
         } 
     }
 }
