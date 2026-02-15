@@ -20,7 +20,8 @@ namespace Collections_CSharp_1
             //ListWhere.UsingListWhere();
             //Nullables.UsingNullables();
             //Dictionaries.UsingDictionaries();
-            DictionariesWithObj.UsingDictionariesWithObj();
+            //DictionariesWithObj.UsingDictionariesWithObj();
+            WhiteBoardTest.PrintStudents();
         } 
     }
 }
